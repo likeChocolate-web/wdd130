@@ -1,7 +1,7 @@
 div {
 	width: 400px;
-	margin: 10px 20px;
-	border: 1px;
+	margin: 10px;
+	border: 1px solid rgb(0, 0, 0, .1);
 	padding: 15px;
 	background-color: rgb(34, 68, 119);
 	color:white ;
@@ -9,7 +9,7 @@ div {
 
 img {
 	position: right;
-	margin: 0 0 10px;
+	margin: 0 0 10px 15px;
 	border:1px solid rgb(0, 0, 0);
 	padding:3px;
 	background-color:rgb(187, 187, 187);
