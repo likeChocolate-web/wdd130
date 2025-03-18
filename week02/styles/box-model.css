@@ -1,4 +1,4 @@
-div {
+.callout {
 	width: 400px;
 	margin: 10px;
 	border: 1px solid rgb(0, 0, 0, .1);
@@ -7,7 +7,7 @@ div {
 	color:white ;
 }
 
-img {
+.callout img {
 	position: right;
 	margin: 0 0 10px 15px;
 	border:1px solid rgb(0, 0, 0);
