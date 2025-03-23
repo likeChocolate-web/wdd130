@@ -35,7 +35,7 @@ header nav a {
     height: 300px;
     margin: 0 8%;
     margin-top: 50px;
-    background-image: url("/wwr/images/fondo.jpg");
+    background-image: url("https://likechocolate-web.github.io/wdd130/wwr/images/fondo.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
