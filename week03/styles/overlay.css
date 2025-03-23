@@ -10,9 +10,9 @@ main {
 }
 
 h1 {
-	text-align: center;
-	font-size: 1.5rem;
-	text-shadow: 3px 3px 5px #777;
+		text-align: center;
+		font-size: 1.5rem;
+		text-shadow: 3px 3px 5px #777;
 }
 
 .herodiv {
@@ -26,7 +26,7 @@ h1 {
 	object-fit: cover;
 }
 
-.stats {
+.stats {	
 	position: absolute;
 	bottom: 25px;
 	left: 15px;
