@@ -99,7 +99,7 @@ h1 {
     max-width: 100%;
     padding: 20px;
     text-align: start;
-    background-color: color( rgba(116, 195, 214, 0.53));
+    background-color:rgb(116, 195, 214, 0.53);
     font-family: "Barlow Condensed", sans-serif;
 }
 
@@ -107,7 +107,7 @@ h1 {
 
     font-family: "Iansui", cursive;
     font-style: normal;
-    color: var(--accent2_color);
+    color: black;
     grid-column: 1 / -1;
     font-size: 2em;
     margin-bottom: 20px;
@@ -125,7 +125,7 @@ h1 {
 section {
     margin-block: 30px;
     margin-inline: 30px;
-    background-color: var(--accent1_coloe);
+    background-color: var(--accent1_coloe   );
     padding: 20px;
 }
 
@@ -142,7 +142,7 @@ section {
 .inside-2 h2 {
     font-size: 2em;
     margin-bottom: 20px;
-    color: var(--accent2_color);
+    color: black;
     font-style: normal;
 }
 
