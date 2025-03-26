@@ -7,7 +7,7 @@
 :root {
     --primary_color: #d1dedd;
     --secondary_color: #6fc5bc;
-    --accent1_coloe: #dbdba8;
+    --accent1_coloe: #dbdba89a;
     --accent2_color: #7baba6;
     --text_black: #000;
     --text_white: #fff;
@@ -99,7 +99,7 @@ h1 {
     max-width: 100%;
     padding: 20px;
     text-align: start;
-    background-color: var(--accent1_coloe);
+    background-color: color( rgba(116, 195, 214, 0.53));
     font-family: "Barlow Condensed", sans-serif;
 }
 
