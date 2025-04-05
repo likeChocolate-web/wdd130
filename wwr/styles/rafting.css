@@ -272,5 +272,65 @@ button:hover {
 }
 
 .contact h1 {
-    color: #6fc5bc;
+    text-align: center;
+    font-size: 2rem;
+    color: #7baba6;
+    margin-bottom: 40px;
+}
+
+.contact-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    background-color: rgb(209, 206, 206);
+    padding: 0.5rem;
+    border-radius: 10px;
+    margin-bottom: 80px;
+    margin-inline: 30px;
+}
+
+.contact-text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.3rem;
+
+}
+.contact-text p {
+    margin-bottom: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    
+}
+
+.map {
+    flex: 1;
+}
+
+.content-wrap2 {
+    display: flex;
+    margin-inline: 30px;
+}
+
+.happy-people {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.happy-people img, p {
+    margin-top: 15px;
+    border-radius: 5px;
+    width: 200px;
+
+}
+
+.happy-people p {
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
 }
