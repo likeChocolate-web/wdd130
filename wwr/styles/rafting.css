@@ -187,6 +187,7 @@ footer {
     padding: 20px;
     margin-block: 30px;
     margin-inline: 30px;
+    gap: 20px;
 }
 
 footer p {
