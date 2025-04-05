@@ -17,7 +17,7 @@
 header {
     margin-block: 30px;
     margin-inline: 30px;
-    display:grid;
+    display: grid;
     grid-template-columns: auto auto auto;
     align-items: center;
     grid-column: 2/3;
@@ -27,8 +27,8 @@ header {
 
 header nav {
     display: flex;
-    align-self:center;
-    flex-wrap:wrap;
+    align-self: center;
+    flex-wrap: wrap;
     width: 100%;
     gap: 50px;
 }
@@ -58,7 +58,7 @@ header nav a {
 }
 
 
-h1 {
+.herodiv h1 {
     font-family: "Iansui", cursive;
     font-weight: 400;
     font-style: normal;
@@ -99,7 +99,7 @@ h1 {
     max-width: 100%;
     padding: 20px;
     text-align: start;
-    background-color:rgb(116, 195, 214, 0.53);
+    background-color: rgb(116, 195, 214, 0.53);
     font-family: "Barlow Condensed", sans-serif;
 }
 
@@ -125,7 +125,7 @@ h1 {
 section {
     margin-block: 30px;
     margin-inline: 30px;
-    background-color: var(--accent1_coloe   );
+    background-color: var(--accent1_coloe);
     padding: 20px;
 }
 
@@ -147,30 +147,30 @@ section {
 }
 
 .hola {
-        display: flex;
-        justify-content: center;
-        gap: 20px;
-        flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 
 .hola figure {
-        text-align: center;
-        margin: 0;
+    text-align: center;
+    margin: 0;
 }
 
 .hola img {
-        width: 200px;
-        height: 200px;
-        display: block;
+    width: 200px;
+    height: 200px;
+    display: block;
 }
 
 .hola figcaption {
-        font-family: "Barlow Condensed", sans-serif;
-        font-weight: 400;
-        font-size: 15px;
-        background-color: #00000088;
-        color: white;
-        
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    background-color: #00000088;
+    color: white;
+
 }
 
 a {
@@ -200,4 +200,77 @@ footer p {
     display: flex;
     gap: 30px;
 
+}
+
+/*Contact us*/
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    background-color: gainsboro;
+    display: grid;
+
+}
+
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid black;
+    padding: 1rem;
+}
+
+legend {
+    color: rgb(60, 94, 36);
+    padding: 0.5rem;
+    font-size: large;
+}
+
+label,
+input,
+select,
+textarea {
+
+    font-family: "Quicksand";
+    font-weight: 600;
+
+}
+
+label {
+
+    text-align: right;
+    padding-right: 0.5rem;
+}
+
+input,
+select,
+textarea {
+    padding: 0.5px;
+    font-size: 15px;
+}
+
+input[type="checkbox"] {
+    width: 15px;
+    height: 15px;
+    vertical-align: bottom;
+}
+
+button {
+    margin: 1rem;
+    background-color: darkkhaki;
+    color: white;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: medium;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
+.contact h1 {
+    color: #6fc5bc;
 }
