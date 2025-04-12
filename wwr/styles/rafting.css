@@ -345,12 +345,12 @@ button:hover {
 .home-header h1 {
     text-align: center;
     font-family: "Iansui", cursive;
-    font-weight: 400;
+    font-weight: 1250px;
     font-style: normal;
     text-align: center;
     width: 100%;
-    background-image: url("https://likechocolate-web.github.io/wdd130/wwr/images/fondohome.jpg");
-    color: black;
+    background-image: url("https://github.com/likeChocolate-web/wdd130/wwr/images/fondohome.jpg");
+    color: white;
     padding: 10px 0;
     background-repeat: no-repeat;
     background-position: center;
