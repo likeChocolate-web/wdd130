@@ -342,20 +342,50 @@ button:hover {
 
 /*home*/
 
-.home-header h1 {
-    text-align: center;
-    font-family: "Iansui", cursive;
-    font-weight: 1250px;
-    font-style: normal;
-    text-align: center;
-    width: 100%;
-    background-image: url("https://github.com/likeChocolate-web/wdd130/wwr/images/fondohome.jpg");
-    color: white;
-    padding: 10px 0;
+.home-header {
+
+    width: auto;
+    height: 600px;
+    margin: 0 8%;
+    background-image: url("https://likechocolate-web.github.io/wdd130/wwr/images/fondohome.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 300px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    border-radius: 10px;
+
 
 }
 
+.home-header h1 {
+    font-family: "Iansui", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    width: 100%;
+    color: white;
+    background-color: #00000088;
+    border-radius: 15px;
+    padding: 10px 0;
+}
+
+.home-header a {
+    color: white;
+    text-align: center;
+    font-size:x-large;
+    background-color: rgb(127, 127, 127);
+    width: 200px;
+    align-self: center;
+
+}
+
+.four-items {
+    display: flex;
+    flex-direction: column;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
