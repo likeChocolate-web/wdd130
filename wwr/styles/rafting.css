@@ -98,10 +98,9 @@ header nav a {
     grid-template-columns: 1fr 1fr 1fr;
     max-width: 100%;
     padding: 20px;
-    text-align: justify;
     background-color: rgb(116, 195, 214, 0.53);
     font-family: "Barlow Condensed", sans-serif;
-
+    justify-items: center;
 }
 
 .history-section h2 {
@@ -113,12 +112,14 @@ header nav a {
     font-size: 2em;
     margin-bottom: 20px;
     text-align: center;
+    flex-wrap: wrap;
+
 }
 
 .img-history img {
     max-width: 100%;
-    height: auto;
-    display: block;
+    height: 200px;
+    display: grid;
     margin: 0 auto;
     align-items: center;
 }
@@ -395,6 +396,7 @@ p {
     align-items: center;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 50PX;
 }
 
 /*trips*/
