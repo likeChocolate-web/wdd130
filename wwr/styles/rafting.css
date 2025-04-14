@@ -451,11 +451,10 @@ p {
 }
 
 .fourth {
-    display: flex;
-    flex-direction: row;
+    display: Flex;
     align-items: center;
-    justify-content: flex-end;
-    padding-top: 50px;
+    justify-content:space-evenly ;
+    padding-top: 100px;
 }
 
 .reservation {
